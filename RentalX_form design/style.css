@@ -1,0 +1,207 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    letter-spacing: 0.5px;
+
+}
+
+:root {
+    --primarycolor: #0084ff;
+    --inputcolor:#000000c0;
+
+}
+
+h1 {
+    font-weight: 700;
+    /* Bold */
+}
+
+p {
+    font-weight: 400;
+    line-height: 1.6;
+    /* Regular */
+}
+
+a {
+    font-size: 14px;
+}
+
+
+/* header */
+
+header {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(39, 34, 29);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+/* from_card */
+
+.form_card {
+    width: 90%;
+    height: 90%;
+    background-image: url(Images/wallpaper.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 13px;
+
+}
+
+
+/* nav */
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 10%;
+    padding: 10px 10px;
+    border-radius: 13px;
+}
+
+nav div {
+    padding: 3px 15px;
+}
+
+
+li {
+    list-style-type: none;
+    display: flex;
+    column-gap: 50px;
+
+}
+
+nav li a {
+    text-decoration: none;
+    padding: 0px 10px;
+    border-bottom: 3px solid rgba(0, 0, 255, 0);
+    transition: 0.4s ease-in-out;
+    
+
+}
+nav li a:hover{
+    border-bottom: 3px solid var(--primarycolor);
+     transition: 0.2s ease-in-out;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    background-color:  var(--inputcolor);
+    padding: 10px 15px;
+    border-radius: 32px;
+    width: 300px;
+    border: none;
+}
+
+.search-box i {
+    color: #fffafa;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.search-box input {
+    border: none;
+    background: transparent;
+    outline: none;
+    color: white;
+    width: 100%;
+    font-size: 12px;
+
+    ::placeholder {
+        color: #fffafa;
+    }
+}
+
+/* main container */
+
+.maincontent {
+    width: 90%;
+    height: 80%;
+    display: flex;
+    margin: auto;
+    margin: 20px auto;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+
+}
+
+.maincontent div {
+    width: 80%;
+    height: 90%;
+    padding: 5px 10px;
+
+}
+
+
+span {
+    color: var(--primarycolor);
+}
+
+button {
+    background-color: #0084ff;
+    color: #fff;
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    border-radius: 23px;
+    font-size: 12px;
+    transition: 0.2s ease-in-out;
+}
+button:hover{
+    background-color: #063f74;
+    transition: 0.2s ease-in-out;
+}
+
+.btn {
+    margin: 30px 30px 30px 0px;
+}
+
+form input {
+    border-radius: 32px;
+    width: 80%;
+    outline: none;
+    border: none;
+    font-size: 12px;
+    color: #fff;
+    background-color: var(--inputcolor);
+    display: flex;
+    flex-direction: column;
+    margin: 8px 0px;
+    padding: 12px 5px 12px 10px;
+}
+
+form li {
+    width: 80%;
+}
+
+.createaccount {
+    margin-top: 15px;
+}
+ul {
+    display: flex;
+}
+ul a {
+    color: #0084ff;
+    margin: 0px 5px;
+    
+}
+.container1 p {
+    font-size: 14px;
+    margin-top: 20px;
+}
